@@ -1,0 +1,63 @@
+:root {
+  --muted:#94a3b8;
+  --text:#e5e7eb;
+  --border: rgba(148,163,184,.18);
+  --brand: linear-gradient(135deg, #60a5fa, #a78bfa);
+  --bg: #0b1220;
+}
+
+body, .signin-app {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  position: relative;
+}
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.google-btn {
+  position: absolute;
+  right: 24px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background: var(--brand);
+  color: #0b1220;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Info boxes */
+.info {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  padding: 40px 20px;
+}
+.info-box {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.01));
+}
+.info-box h3 {
+  margin-bottom: 8px;
+}
+.info-box p {
+  color: var(--muted);
+}
