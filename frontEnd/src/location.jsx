@@ -8,7 +8,7 @@ export default function LocationPage() {
 
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
-    googleMapsApiKey: 'AIzaSyD5Zc2qEiZ1a9ELQh9vi5Ud38fJ61AcE9A',
+    googleMapsApiKey: 'x',
     libraries: ['places'],
   });
 
