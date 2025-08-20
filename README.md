@@ -27,15 +27,16 @@ Solar adoption is accelerating - especially in high-insolation states like Texas
 1. Sign in with Google (One-tap or button).
 2. Search/select your address on the map.
 3. Choose date(s) → get predictions
+4. View weekly predictions
 
 ## ⭐ Highlights (that I am very proud of)
-- 🗺️ **Google Maps API** for location search & geocoding
-- ☁️ **National Weather Service** live forecast ingestion
-- 🔐 **Google Sign-In** (GIS) with secure JWT sessions
-- 📦 **API-first** endpoints for predictions and auth
+- **Google Maps API** for location search & geocoding
+- **National Weather Service API** live forecast ingestion
+- **Google Sign-In API** (GIS) with secure JWT sessions
+- **API-first** endpoints for predictions and authentication 
   
 ## Additional Notes
-I am in the process of deploying this.
+I am in the process of deploying this (YAY!)
 ## Credits & Acknowledgements
 Training/data scaffolding taken from CodingNomads alumni Samuel (Jupyter Notebook baseline). Thank you for the building block for my application.
 
