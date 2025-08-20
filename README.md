@@ -37,6 +37,6 @@ Solar adoption is accelerating - especially in high-insolation states like Texas
 ## Additional Notes
 I am in the process of deploying this.
 ## Credits & Acknowledgements
-Training/data scaffolding taken from CodingNomads alumni Samuel (Jupyter Notebook baseline). Thank you for the building block.
+Training/data scaffolding taken from CodingNomads alumni Samuel (Jupyter Notebook baseline). Thank you for the building block for my application.
 
 
